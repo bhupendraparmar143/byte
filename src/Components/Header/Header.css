@@ -1,0 +1,16 @@
+.mainNavbar{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.byte_logo{
+    width: 50px;
+    border-radius: 50%;
+}
+.loginButton{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 10px 20px;
+    border-radius: 20px 3px;
+}

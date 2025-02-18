@@ -1,0 +1,38 @@
+section{
+    padding: 30px;
+}
+.contest-main-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contest-inner-div{
+    width: 50%;
+    
+}
+.border{
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen;
+ 
+}
+.border h5{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contest-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contest-box h6{
+    
+    padding: 20px;
+    /* border: 2px solid ; */
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    margin: 10px;
+    border-radius: 5px;
+}

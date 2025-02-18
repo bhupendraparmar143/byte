@@ -1,0 +1,15 @@
+.loginForm {
+    width: 500px;
+    margin: 70px auto;
+    background-color: rgb(204 206 211);
+    padding: 30px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.text-color {
+    color: #8615d2;
+}
+.button{
+    border-radius: 15px;
+}
