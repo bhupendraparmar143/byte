@@ -15,12 +15,12 @@ import 'animate.css';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/byte">
         <Header />
         <Routes>
           <Route path='/login' element={<Login/>}/>
           <Route path='/signup' element={<SignUp/>}/>
-          <Route path='/byte' element={<Home/>}/>
+          <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<Footer/>}/>
           <Route path='/contest' element={<Contest/>}/>
           <Route path='/leaderboard' element={<Leaderboard/>}/>
